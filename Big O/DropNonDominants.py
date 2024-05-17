@@ -13,4 +13,4 @@ print_items(10)
 #de valores maiores, seu valor seria insignificante para a equação dado o crescimento exponencial de n².
 #Podemos ver um exemplo claro no codigo acima, onde o n² representa um total de 100 operações e n apenas 10.
 #É ainda mais insignificante quando observamos valores como n = 100, onde n² representaria 10.000 enquanto
-#n apenas 100
+#n apenas 100.
