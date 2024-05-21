@@ -12,3 +12,4 @@ class LinkedList:
     def remove(self, index):
 
     
+#Uma Linked List não possui índice e não necessita que seus elementos estejam em espaços próximos na memória.

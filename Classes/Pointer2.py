@@ -29,7 +29,8 @@ print("\nnum1 points to:", id(num1))
 
 #Sempre que criamos um tipo de dado imutavel (integer ou string por exemplo), é tipicamente criado um endereço
 #lifetime ou permanente para aquele valor na memória, sendo assim, mesmo havendo a substituição do valor em uma
-#variável, o valor original continua existindo em um endereço na memória.
+#variável, o valor original continua existindo em um endereço na memória desde que ainda exista algo apontando
+#para ele.
 
 #No caso de linguagens como o Python e o Java, há um sistema de otimização chamado "interning" ou "pooling",
 #esses mecanismos fazem com que possamos reaproveitar valores apontando para o mesmo endereço de memória original
